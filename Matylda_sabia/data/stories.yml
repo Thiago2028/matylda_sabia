@@ -1,0 +1,49 @@
+version: "3.0"
+
+stories:
+
+- story: saudacoes
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: historia
+  - action: utter_historia
+  - intent: time
+  - action: utter_time
+
+- story: historia
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: time
+  - action: utter_time
+
+- story: trem
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: trem
+  - action: utter_trem
+
+- story: telecomunicacao
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: telecomunicacao
+  - action: utter_telecomunicacao
+
+- story: turismo
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: turismo
+  - action: utter_turismo
+
+- story: dados
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: dados
+  - action: utter_dados
+
+

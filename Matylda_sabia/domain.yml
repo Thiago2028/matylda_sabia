@@ -1,0 +1,54 @@
+version: "3.0"
+
+intents:
+  - saudacoes
+  - tchau
+  - sou_um_bot
+  - historia
+  - time
+  - trem
+  - telecomunicacao
+  - turismo
+  - dados
+
+responses:
+  utter_saudacoes:
+  - text: "Ola! Sou Matylda, sua assistente e vou te ajudar, o que você precisa?"
+
+  utter_tchau:
+  - text: "tchau"
+
+  utter_sou_um_bot:
+  - text: "Sou um bot em rasa pra te ajudar!"
+
+  utter_historia:
+  - text: "Mogi Mirim é um município da região leste de São Paulo, no Brasil. O município é formado pela sede e pelo distrito de Martim Francisco."
+
+  utter_time:
+  - text: "Mogi Mirim Esporte Clube, mais conhecido como Mogi Mirim, é um clube de futebol brasileiro com sede em Mogi Mirim, São Paulo. Fundado a 1 de fevereiro de 1932, a casa da equipa é o Estádio Vail Chaves, que tem capacidade para 19.900 espectadores. As cores da casa do clube são vermelho e branco e o mascote do time é um sapo."
+
+  utter_trem:
+  - text: "Uma grande parte da história de Mogi Mirim está em sua ferrovia, que teve sua inauguração (ainda sem trilhos) na data de 27 de agosto de 1875, 
+	          por Dom Pedro II e que foi terminada em 1886, na altura da estação de Entroncamento. Desde então, foram feitas várias reformas, tornando o leito da 
+	          linha atual muito diferente do original em praticamente toda a sua extensão. Suas modificações mais significativas foram feitas nos anos de 1926, 1929, 1951, 
+	          1969, 1964, 1972, 1973 e 1979, sendo que colocaram-se novas versões nos trechos reformados. A partir de 1971, a linha integrou-se à 
+	          Ferrovia Paulista SA (FEPASA). Atualmente, a ferrovia existente no município está sob concessão da Rede Ferroviária Federal."
+
+  utter_telecomunicacao:
+  - text: "Mogi mirim tem Jornal: A Comarca, O Impacto e O Popular
+	        Rede de televisão: STV Mogi Mirim, antiga SecTV, Mogi Play (Web TV)"
+
+  utter_turismo:
+  - text: "Pontos de interesse turístico são: Igreja Matriz São José na Praça Rui Barbosa, Praça Floriano Peixoto, também conhecida como Jardim Velho
+	        Estação Educação, antiga estação ferroviária (totalmente reformada), Voçoroca (área de erosão), Cachoeira de Cima (barragem), Pedreira de Grava
+	        Complexo do Lavapés, também conhecido como Zerão, Zoológico Municipal de Mogi Mirim Luiz Gonzaga Amoêdo Campos"
+
+  utter_dados:
+  - text: "Vou te passar alguns dados de Mogi Mirim, a população estimada em 2021 eh de	94.098 pessoas, os feriados são 19 de março: Dia de São José, padroeiro, 
+	        e 22 de outubro: aniversário da cidade,já o PIB per capita em 2019
+          foi de 50.482,71, a área da unidade territorial pesquisado em 2020 é
+          497,708 km²"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
