@@ -10,6 +10,8 @@ intents:
   - telecomunicacao
   - turismo
   - dados
+  - quero_ingressar_na_area_de_ti
+  - O_que_é_mogi2go
 
 responses:
   utter_saudacoes:
@@ -48,6 +50,14 @@ responses:
 	        e 22 de outubro: aniversário da cidade,já o PIB per capita em 2019
           foi de 50.482,71, a área da unidade territorial pesquisado em 2020 é
           497,708 km²"
+
+  utter_quero_ingressar_na_area_de_ti:
+  - text: "Você quer trabalahar ou empreender? então entre e coloque suas duvidas que responderemos por aqui > https://mogi2go.com.br/contato"
+
+  utter_O_que_é_mogi2go:
+  - text: "O Mogi2Go é uma associação criada para fomentar o ecossistema de Tecnologia da Informação com cursos, treinamentos e workshops.
+          Mogi2Go é o primeiro projeto da região a fomentar o desenvolvimento do setor de Tecnologia da Informação.
+          Para envio de curriculos ou mais ajuda, entre em https://mogi2go.com.br/contato "
 
 session_config:
   session_expiration_time: 60

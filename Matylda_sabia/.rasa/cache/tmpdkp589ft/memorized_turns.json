@@ -1,0 +1,25 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4tjYWAFuLHSY=": "utter_saudacoes",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOX4TIoFAOOKOXo=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARSmJKflAM2IBmxtTQg==": "utter_dados",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARSmJKflEugaiFJcJsQBR4Gw8": "action_listen",
+    "eJydjkEKgDAMBL+SB/iCfkWkhJhDoE2lTb2U/N2CgkfB2w4Mw67DFxhH5TMimRQNMO4RFTMHeCBJM9bp9sZ1OqITLUDDviMVbv7R6WZc46v/L308Mk5MJXcVQsLivl3yWVdj": "utter_telecomunicacao",
+    "eJydjkEKgDAMBL/SB/iCfkWkhJhDoKbSJl5K/25BQfBS8bYLs8POtU2u7pmOAKicxLt6hSCwkXd3iVyUpLNWKHeGpVf1roCtgIlKG3hMlXJ48P+mwSOlSJg2E0ZASN9+vUdj63IC4214nw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARSVFqbm1tbEASKpS7w==": "utter_trem",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARSVFqbnEOQasEof+WAAU/GtD": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARRlA8fyizMTa2lgAmDdUmg==": "utter_historia",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARRlA8fyizETiHARXjcecWABJ03BE": "action_listen",
+    "eJydjmEKgCAMRq/iATqBV4mQYYMGOUNnf2R3Tyjqp+G/fePxeHPVydQj4enAC0W2pt6HYwhozTN2yoLc2JIxNYa4TbEmQ1nBR8za8RQRTO7Dx02doq39YyL4F/TSw55OjlBA1eUCBnWJsA==": "utter_time",
+    "eJydjkEKgCAQRa/iATqBV4mQwQYayDF0bCPePamoVSjt5g/vf96Yy6DyFnA3YIU8a5WvwzA41OoOK0VBrmyKGCpDXKNoFSHNYD3G0thJIhjMi/9fahgt9e8DQZ/QQ//eaegIOexTOcmP/nQAgqih8g==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARSWlRZnFufm1tbEARHdUSg==": "utter_turismo",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARSWlRZnFufnEuQemGLcpsQADLG9U": "action_listen",
+    "eJydjkEKwzAMBL/iB/QF/kooQjhLELRyIsm5GP+9hhZ6DOS2A7PLLn08Ut8NJ3EJqZpT/wZSfiOnH7zEAzrd5rDpiE6MnJzbyqXCx8VOi4DRX7+/dPHoaLBKopvBnW2WiA1MKyhkjOcH5SFdGg==": "utter_quero_ingressar_na_area_de_ti",
+    "eJydjkEKwzAMBL/iB/QF/kopQiRLEKRyKsm5mPw9hhZ6a9LctDA72nvbbqkthpV4CCmaU3sfpPxETp8wiwe0s9VhnRHtMXJyriMPBb4deGoEjL74ddPBoleFFRKdDO5svURsYBpBIedW/lb8+/GxA0hvicQ=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARf7xhaWp8TGlBgaplvG5+emZRun5tbWxAJ8yWHE=": "utter_O_que_é_mogi2go",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARf7xhaWp8TGlBgaplvG5+emZRun5xDkOq04izY8FAIVqe8k=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARSWZuam1tbEASHxS5g==": "utter_time",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5P7W4loA5pSUlqUXxCOXkm0TARSWZuanEOQasEof+WAARbGso": "action_listen"
+  }
+}

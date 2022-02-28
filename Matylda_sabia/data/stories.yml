@@ -46,4 +46,18 @@ stories:
   - intent: dados
   - action: utter_dados
 
+- story: quero_ingressar_na_area_de_ti
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: quero_ingressar_na_area_de_ti
+  - action: utter_quero_ingressar_na_area_de_ti
+
+- story: O_que_é_mogi2go
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: O_que_é_mogi2go
+  - action: utter_O_que_é_mogi2go
+
 

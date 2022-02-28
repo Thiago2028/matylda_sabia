@@ -1,0 +1,145 @@
+version: "3.0"
+
+nlu:
+- intent: saudacoes
+  examples: |
+    - ola
+    - eae
+    - oi
+    - opa como vai?
+    - bom dia
+    - boa noite
+    - tudo bom?
+    - vamos la
+    - eae cara
+    - boa tarde
+    - esta bem?
+    - tudo certo?
+
+- intent: tchau
+  examples: |
+    - tchau
+    - ate mais
+    - te vejo depois
+    - ate depois
+    - xau
+    - adeus
+    - tenha um bom dia
+    - ate outro dia
+    - tchau tchau
+    - xau xau
+
+- intent: sou_um_bot
+  examples: |
+    - voce eh um bot?
+    - voce eh um humano?
+    - estou falando com um bot?
+    - estou falando com um humano?
+
+- intent: historia
+  examples: |
+   - conte historia de mogi mirim
+   - quero saber de mogi mirim
+   - curiosidades de mogi mirim
+   - saber sobre mogi mirim
+
+- intent: time
+  examples: |
+   - estadio mogi mirim
+   - time do sapo de mogi mirim
+   - time
+   - jogadores
+   - estadio
+
+
+- intent: trem
+  examples: |
+   - ferrovias de mogi mirim
+   - trem de mogi mirim
+   - funciona a ferrovia?
+   - sobre o trem
+   - maria fumaca
+   - terminal ferroviario
+
+- intent: telecomunicacao
+  examples: |
+   - redes de telecomunicaçoes de mogi mirim
+   - jornal
+   - tv
+   - midia
+   - informativos
+
+- intent: turismo
+  examples: |
+   - matriz mogi mirim
+   - turismo em mogi mirim
+   - viagem
+   - viajar
+   - pontos turisticos
+   - o que fazer em mogi mirim
+   - onde ir
+   - quero viajar pra mogi mirim
+
+- intent: dados
+  examples: |
+   - habitantes de mogi mirim
+   - IDH mogi mirim
+   - feriados mogi mirim
+   - quantos habitantes
+   - numeros
+   - mogi mirim e bom de viver?
+   - como eh viver em mogi mirim? 
+#intencoes de trabalhar, empreender na Mogi2go
+- intent: quero_ingressar_na_area_de_ti
+  examples: |
+    - quero ingressar na area de ti
+    - trabalhar na area de ti
+    - como trabalhar na area de ti?
+    - como trabalhar com ti?
+    - emprego na area de ti
+    - quero estudar ti
+    - como ingressar na area de ti?
+    - como empreender na area de ti?
+    - como empreender?
+    - quais os passos para empreender em ti?
+    - quais os passos para empreender como ti?
+    - como abrir um negocio em ti?
+    - quais os passos para abrir um negocio em ti?
+    - como ter um negocio em ti?
+    - quero empreender na area de ti
+    - quero empreender em ti
+    - quero fazer parte desse projeto
+    - quero fazer parte desse polo tecnologico
+    - quero ganhar dinheiro com ti
+    - quero ser autonomo com ti
+    - quero um negocio de ti
+    - por que empreender na mogi2go?
+    - por que fazer parte da mogi2go?
+    - por que fazer parte desse projeto?
+    - por que devo participar da mogi2go?
+    - qual a intensao de empreender na mogi2go?
+    - quais as intensoes de empreender na mogi2go?
+#intencoes sobre a Mogi2go
+- intent: O_que_é_mogi2go
+  examples: |
+    - o que é o polo tecnologico mogi2go?
+    - o que é mogi2go?
+    - para que serve mogi2go?
+    - o que faz a mogi2go?
+    - como funciona esse polo tecnologico?
+    - o que é esse polo tecnologico
+    - qual a intensao da mogi2go?
+    - qual objetivo mogi2go?
+    - qual estao sendo os objetivos?
+    - quero trabalhar com voces
+    - como trabalhar com voces?
+    - onde mando meu curriculo?
+    - como mandar curriculo?
+    - estao contratando?
+    - onde envio o curriculo?
+    - como envio meu curriculo?
+    - Contato da mogi2go
+    - como a mogi2go me ajuda?
+    - como a mogi2go pode me ajudar?
+    - como me ajudaria a mogi2go?
+    - a mogi2go pode me ajudar?
