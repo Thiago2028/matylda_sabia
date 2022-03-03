@@ -60,4 +60,25 @@ stories:
   - intent: O_que_é_mogi2go
   - action: utter_O_que_é_mogi2go
 
+- story: estado_emocional_matylda
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: estado_emocional_matylda
+  - action: utter_estado_emocional_matylda
+
+- story: onde_matylda_mora
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: onde_matylda_mora
+  - action: utter_onde_matylda_mora
+
+- story: quantos_anos
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: quantos_anos
+  - action: utter_quantos_anos
+
 

@@ -12,6 +12,9 @@ intents:
   - dados
   - quero_ingressar_na_area_de_ti
   - O_que_é_mogi2go
+  - estado_emocional_matylda
+  - onde_matylda_mora
+  - quantos_anos
 
 responses:
   utter_saudacoes:
@@ -58,6 +61,15 @@ responses:
   - text: "O Mogi2Go é uma associação criada para fomentar o ecossistema de Tecnologia da Informação com cursos, treinamentos e workshops.
           Mogi2Go é o primeiro projeto da região a fomentar o desenvolvimento do setor de Tecnologia da Informação.
           Para envio de curriculos ou mais ajuda, entre em https://mogi2go.com.br/contato "
+
+  utter_estado_emocional_matylda:
+  - text: "Obrigado por perguntar, eu sempre estou bem, sou feliz em poder conversar com você :D"
+
+  utter_onde_matylda_mora:
+  - text: "Vou te responder...nasci em Mogi Mirim estado de São Paulo no Brasil, estou aqui na sua frente pra te responder o que precisar ;)"
+
+  utter_quantos_anos:
+  - text: "Curioso pra saber minha idade neh, sou jovem ainda, mas sei te responder bastante coisas."
 
 session_config:
   session_expiration_time: 60

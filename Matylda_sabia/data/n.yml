@@ -1,6 +1,7 @@
 version: "3.0"
 
 nlu:
+#intencoes onde vai iniciar a conversa
 - intent: saudacoes
   examples: |
     - ola
@@ -15,7 +16,7 @@ nlu:
     - boa tarde
     - esta bem?
     - tudo certo?
-
+#intencoes que finaliza a conversa
 - intent: tchau
   examples: |
     - tchau
@@ -28,21 +29,39 @@ nlu:
     - ate outro dia
     - tchau tchau
     - xau xau
-
+#intencoes onde a matylda responde se eh um bot
 - intent: sou_um_bot
   examples: |
     - voce eh um bot?
     - voce eh um humano?
     - estou falando com um bot?
     - estou falando com um humano?
-
+    - Quem é a matylda?
+    - Quem é matylda?
+    - Quem é voce?
+    - Quem é vc
+    - quem vc é
+    - Quem é?
+    - Quem voce é?
+    - O que voce é?
+    - O que vc é
+    - O que é vc
+    - O que é voce?
+    - O que voce é?
+    - voce é um robo?
+    - vc é um robo?  
+    - É um robo?
+    - Matylda é um robo?
+    - Quem é a matylda?
+    - O que é a matylda?
+#intencoes que conta sobre a cidade de mogi mirim
 - intent: historia
   examples: |
    - conte historia de mogi mirim
    - quero saber de mogi mirim
    - curiosidades de mogi mirim
    - saber sobre mogi mirim
-
+#intencoes que explica sobre o time do mogi mirim
 - intent: time
   examples: |
    - estadio mogi mirim
@@ -50,8 +69,9 @@ nlu:
    - time
    - jogadores
    - estadio
-
-
+   - quero saber do time
+   - os jogadores sao bons?
+#intencoes que explica um pouco da historia sobre as ferrovias
 - intent: trem
   examples: |
    - ferrovias de mogi mirim
@@ -60,7 +80,9 @@ nlu:
    - sobre o trem
    - maria fumaca
    - terminal ferroviario
-
+   - quero saber do trem
+   - sobre o terminal ferroviario
+#intencoes sobre as midias
 - intent: telecomunicacao
   examples: |
    - redes de telecomunicaçoes de mogi mirim
@@ -68,7 +90,9 @@ nlu:
    - tv
    - midia
    - informativos
-
+   - qual canal de telecomunicaçao
+   - jornais que mogi mirim tem 
+#intencoes para quem quer turistar a cidade
 - intent: turismo
   examples: |
    - matriz mogi mirim
@@ -79,7 +103,9 @@ nlu:
    - o que fazer em mogi mirim
    - onde ir
    - quero viajar pra mogi mirim
-
+   - quero fazer turismo
+   - quero turistar em mogi mirim
+#intencoes que mostra alguns dos principais dados de mogi mirim
 - intent: dados
   examples: |
    - habitantes de mogi mirim
@@ -89,6 +115,7 @@ nlu:
    - numeros
    - mogi mirim e bom de viver?
    - como eh viver em mogi mirim? 
+   - quantas pessoas tem mogi mirim
 #intencoes de trabalhar, empreender na Mogi2go
 - intent: quero_ingressar_na_area_de_ti
   examples: |
@@ -143,3 +170,46 @@ nlu:
     - como a mogi2go pode me ajudar?
     - como me ajudaria a mogi2go?
     - a mogi2go pode me ajudar?
+    - quero saber sobre a mogi2go 
+#personalidade emocional
+- intent: estado_emocional_matylda
+  examples: |
+    - Como esta hoje?
+    - Como esta se sentindo?
+    - Como que se sente hoje?
+    - Esta se sentindo bem?
+    - Voce esta bem?
+    - Voce esta de boas?
+    - esta de boas?
+    - Ta tranquila?
+    - Ta tranquilo?
+    - Tudo certo?
+    - Tudo Ok por ai?
+#personalidade lugar
+- intent: onde_matylda_mora
+  examples: |
+    - de onde vc é?
+    - de onde voce é?
+    - vc é de onde?
+    - voce é de onde?
+    - onde vc esta?
+    - qual sua nacionalidade?
+    - sua nacionalidade
+    - voce mora onde?
+    - qual cidade vc mora
+    - qual pais vc mora
+#personalidade idade
+- intent: quantos_anos
+  examples: |
+    - quantos anos vc tem?
+    - quantos anos vc tem
+    - qual sua idade?
+    - qual a idade sua?
+    - vc é velha ou nova?
+    - vc é mais velha ou mais nova?
+    - voce é velha ou nova?
+    - voce é nova ou velha?
+    - voce é mais nova ou mais velha?
+    - tem quantos anos?
+    - vc tem quantos anos?
+    - vc tem quantos anos?
